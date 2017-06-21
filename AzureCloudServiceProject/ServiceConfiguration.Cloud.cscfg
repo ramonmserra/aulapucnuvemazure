@@ -3,13 +3,15 @@
   <Role name="Consumidor">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=aulamuvempuc;AccountKey=$(_aulamuvempuc.key_)" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="199987ac-90c1-418d-a38c-d06eb7ded92a" />
     </ConfigurationSettings>
   </Role>
   <Role name="Orquestrador">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=aulamuvempuc;AccountKey=$(_aulamuvempuc.key_)" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="199987ac-90c1-418d-a38c-d06eb7ded92a" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>

@@ -12,13 +12,14 @@
   <WorkerRole name="Consumidor" vmsize="Small">
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" />
     </ConfigurationSettings>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="c:\users\phdias\documents\visual studio 2017\Projects\AzureCloudServiceProject\AzureCloudServiceProject\rcf\Release\ConsumidorContent\" />
+        <SourceDirectory path="C:\Users\ramon\Desktop\azurecloudserviceproject-master\azurecloudserviceproject-master\AzureCloudServiceProject\rcf\Release\ConsumidorContent\" />
       </Content>
       <Content destination=".\">
-        <SourceDirectory path="c:\users\phdias\documents\visual studio 2017\Projects\AzureCloudServiceProject\AzureCloudServiceProject\ecf\ConsumidorContent\" />
+        <SourceDirectory path="C:\Users\ramon\Desktop\azurecloudserviceproject-master\azurecloudserviceproject-master\AzureCloudServiceProject\ecf\ConsumidorContent\" />
       </Content>
     </Contents>
     <Imports>
@@ -28,13 +29,14 @@
   <WorkerRole name="Orquestrador" vmsize="Small">
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" />
     </ConfigurationSettings>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="c:\users\phdias\documents\visual studio 2017\Projects\AzureCloudServiceProject\AzureCloudServiceProject\rcf\Release\OrquestradorContent\" />
+        <SourceDirectory path="C:\Users\ramon\Desktop\azurecloudserviceproject-master\azurecloudserviceproject-master\AzureCloudServiceProject\rcf\Release\OrquestradorContent\" />
       </Content>
       <Content destination=".\">
-        <SourceDirectory path="c:\users\phdias\documents\visual studio 2017\Projects\AzureCloudServiceProject\AzureCloudServiceProject\ecf\OrquestradorContent\" />
+        <SourceDirectory path="C:\Users\ramon\Desktop\azurecloudserviceproject-master\azurecloudserviceproject-master\AzureCloudServiceProject\ecf\OrquestradorContent\" />
       </Content>
     </Contents>
     <Imports>

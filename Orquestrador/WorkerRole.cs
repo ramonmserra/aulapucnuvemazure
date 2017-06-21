@@ -25,7 +25,7 @@ namespace Orquestrador
         {
             Trace.TraceInformation("Orquestrador is running");
 
-            //var connectionString = "DefaultEndpointsProtocol=https;AccountName=pablodias;AccountKey=mtbzioaGNvABxjOlnjOyFs82dmH0enTh3RGhGLRQF2vHb8e+iz3sm1T5dAfZcpjlPWZxq/SWRhlS3aXrbGnd4Q==;EndpointSuffix=core.windows.net";
+          
             var connectionString = "DefaultEndpointsProtocol=https;AccountName=aulapucramon;AccountKey=NEpVr5B2s7kWfBy+osHruQLpHfw+vsozTZZH/QiltLMo7HrbGiFDTz1haYhvf/JXXVuyJ6YFVdQIYOHyN+wYHw==;EndpointSuffix=core.windows.net";
 
             CloudStorageAccount cloudStorageAccount;
